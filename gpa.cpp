@@ -22,7 +22,7 @@ int main(){
     int c[8] = {0};
     do {
         if (i <= n){
-            cout << "\nEnter the expected GPA for the semester No. " << i <<dl;
+            cout << "\nEnter the GPA for the semester No. " << i <<dl;
             cin >> g[i-1];
             cout << "\nEnter the number of credit hours earned for the semester No. " << i << " That you passed it"<<dl;
             cin >> c[i-1];
@@ -42,7 +42,7 @@ int main(){
         csum += c[j];
     }
 
-    cout << "\nExpected GPA for These " << i << " Semsters Is : "<< setprecision(3) << gsum / csum << dl;
+    cout << "\nExpected GPA for These " << i-1 << " Semsters Is : "<< setprecision(3) << gsum / csum << dl;
 
     return (0);
 }
