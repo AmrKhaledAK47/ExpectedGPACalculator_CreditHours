@@ -1,2 +1,2 @@
-# ExpectedGPACalculator_CreditHours
-GPA Calculator To Calculate Cumulative GPA For Credit Hours Faculty Of Computers And Informatics  
+# Expected GPA Calculator 
+GPA Calculator for Calculating Cumulative GPA in a Software Engineering Credit Hours Program With the Most Awful Grading Scale.
